@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red{
+    color: #F7542E;
+}
+
+.nav{
+    border: 2px solid purple;
+    text-align: left;
+    background-color: #FAFBFD;
+    padding: 2% 5%;
+    height: 100vh;
+}
+.nav--list{
+    list-style: none;
+    border: 2px solid green;
+    text-align: left;
+    margin: 0 auto;
+}

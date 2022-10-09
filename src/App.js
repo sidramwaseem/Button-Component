@@ -7,8 +7,10 @@ function App() {
   return (
     <section className="container">
       <Nav />
-
-      <Buttons />
+      <div className="button-container">
+    <h1>Buttons</h1>
+    <Buttons />
+    </div>
     </section>
   );
 }

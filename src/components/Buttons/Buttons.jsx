@@ -1,12 +1,13 @@
-import React from 'react';
-import './Buttons.css';
+import React from "react";
+import "./Buttons.css";
 
 function Buttons() {
   return (
-    <div>
-      issa button
-    </div>
-  )
+    <aside>
+    <p className="btn-head">&lt;Button /&gt;</p>
+      <button>Default</button>
+    </aside>
+  );
 }
 
-export default Buttons
+export default Buttons;

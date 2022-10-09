@@ -1,0 +1,16 @@
+button {
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.btn-head{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 10%;
+}

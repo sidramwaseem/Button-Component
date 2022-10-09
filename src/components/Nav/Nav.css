@@ -9,14 +9,32 @@
 
 .nav{
     border: 2px solid purple;
-    text-align: left;
     background-color: #FAFBFD;
-    padding: 2% 5%;
     height: 100vh;
+    width: 20%;
+}
+
+.nav h5{
+    text-align: center;
+    margin-top: 2.2rem;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif
 }
 .nav--list{
     list-style: none;
     border: 2px solid green;
     text-align: left;
-    margin: 0 auto;
+    margin: 5rem 1.2rem;
+}
+
+.nav--list li{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: #9E9E9E;
+    margin-top: 15%;
+    font-size: 14px;
+}
+
+.nav--list li:nth-child(4){
+    color: #090F31;
 }

@@ -4,11 +4,19 @@
 }
 
 .button-container {
-    margin-left: 10%;
+    margin-left: 5%;
+    width: 80%;
   }
   .button-container h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 36px;
     margin-bottom: 10%;
+  }
+
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
   }

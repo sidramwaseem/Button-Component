@@ -19,3 +19,10 @@ button {
     font-family: 'Ubuntu Mono', monospace;
     margin-bottom: 6%;
 }
+
+.store-row{
+  margin-right: 250px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

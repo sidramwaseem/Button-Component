@@ -66,6 +66,48 @@ function App() {
           border="none"
           />
         </div>
+        <div className="row">
+          <Buttons 
+          text="&lt;Button disabled/&gt;"
+          bgColor="#E0E0E0"
+          color="#9E9E9E"
+          btnText="Disabled"
+          cursor= "not-allowed"
+          border="none"
+          />
+          <Buttons 
+          text="&lt;Button variant='text' disabled/&gt;"
+          bgColor="#fff"
+          color="#9E9E9E"
+          btnText="Disabled"
+          cursor= "not-allowed"
+          border="none"
+          />
+        </div>
+
+        {/* LOCAL_GROCERY_STORE ROW*/}
+
+        <div className="row">
+          <Buttons 
+          text="&lt;Button startIcon='local_grocery_store'/&gt;"
+          bgColor="#2962FF"
+          color="#FFFFFF"
+          btnText="Default"
+          boxShadow="0px 2px 3px rgba(0, 49, 202, 0.2)"
+          class="store-row"
+          startIcon="local_grocery_store"
+          />
+          <Buttons 
+          text="&lt;Button endIcon='local_grocery_store'/&gt;"
+          bgColor="#2962FF"
+          color="#FFFFFF"
+          btnText="Default"
+          boxShadow="0px 2px 3px rgba(0, 49, 202, 0.2)"
+          class="store-row"
+          endIcon="local_grocery_store"
+          
+          />
+        </div>
       </div>
     </section>
   );

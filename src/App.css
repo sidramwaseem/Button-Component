@@ -22,3 +22,15 @@
     border: 2px solid red;
   }
 
+footer{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(147, 95, 17);
+}

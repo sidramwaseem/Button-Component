@@ -4,7 +4,7 @@ import "./Buttons.css";
 function Buttons(props) {
   return (
     <aside>
-      <p className="btn-head">{props.text}</p>
+      <p className="btn-head" style={{color:props.pColor}}>{props.text}</p>
       <button
         className={props.class}
         style={{

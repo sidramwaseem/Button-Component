@@ -172,7 +172,7 @@ function App() {
         <div className="row">
           <Buttons
             text="&lt;&:hover, &:focus /&gt;"
-            bgColor="AEAEAE"
+            bgColor="#AEAEAE"
             color="#3F3F3F"
             btnText="Default"
             boxShadow="0px 2px 3px rgba(0, 49, 202, 0.2)"

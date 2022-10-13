@@ -108,6 +108,35 @@ function App() {
           
           />
         </div>
+        <div className="row">
+          <Buttons 
+          text="&lt;Button size='sm'/&gt;"
+          bgColor="#2962FF"
+          color="#FFFFFF"
+          btnText="Default"
+          boxShadow="0px 2px 3px rgba(0, 49, 202, 0.2)"
+          width="73px"
+          height="32px"
+          />
+          <Buttons 
+          text="&lt;Button size='md'/&gt;"
+          bgColor="#2962FF"
+          color="#FFFFFF"
+          btnText="Default"
+          boxShadow="0px 2px 3px rgba(0, 49, 202, 0.2)"
+          width="81px"
+          height="36px"
+          />
+          <Buttons 
+          text="&lt;Button size='lg'/&gt;"
+          bgColor="#2962FF"
+          color="#FFFFFF"
+          btnText="Default"
+          boxShadow="0px 2px 3px rgba(0, 49, 202, 0.2)"
+          width="93px"
+          height="42px"
+          />
+        </div>
       </div>
     </section>
   );

@@ -13,6 +13,12 @@ function Buttons(props) {
           border: props.border,
           boxShadow: props.boxShadow,
           cursor: props.cursor,
+          width:props.width,
+          height:props.height,
+          display:'flex',
+          flexDirection:'row',
+          justifyContent:'center',
+          alignItems:'center'
         }}
       >
         {" "}
